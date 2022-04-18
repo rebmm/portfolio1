@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:wght@300&family=Oswald:wght@300&display=swap');/*importing a font*/
+
+*{ /*Applies font to all*/
+    margin:0;
+    padding:0;
+    border:none;
+}
+
+body{
+    font-family: 'Indie Flower', cursive;
+    font-weight: 200;
+    color:bisque;
+   
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    font-weight:200;
+    color:bisque;
+    letter-spacing: 8px;
+    text-transform:uppercase;
+    font-size: 300%;
+    margin-top: 40px;
+}
+
+header a{
+    text-decoration: none;/*removes underline on heading*/
+}
+
+#heading{/*styles heading/title*/
+    font-size: 300%;
+    letter-spacing: 8px;
+    margin-left: 30px;
+    font-color:bisque
+    
+}
+
+.active{
+    border-bottom:2px solid #EB8A81
+}
+
+
+#menu{
+    font-size:150%;
+    letter-spacing:  4px;
+  }
+  #menu, #heading{
+    line-height: 80px;
+  
+  }
+  #menu li{
+    float: right;
+    list-style-type:none;
+    margin-right:50px;
+  }
+  #menu a{
+    text-decoration:none;
+    color:inherit; /*keeps the colour from the parent*/
+  }
+  #menu a:hover{
+      border-bottom: 2px solid #EB8A81;
+  }
+
+  .paws{
+      color: #EB8A81;
+  }
+
+
