@@ -70,7 +70,21 @@ h1,h2{
 
 }
 .who-we-are p{
-  text-align: center;
+  width:500px;
+  height:280px;
+  font-size: 20px ;
+  padding:30px;
+  border-style: double;
+  border-color: #EB8A81;
+  border-width:3px;
+  margin: 0 auto;/*centres the text*/
+  
+}
+
+#left-image{
+  height:150px;
+  width:100%;
+  background-image: url('../images/pawprints-2919733_1280.jpg');
 }
 
 /* #who-text p{
