@@ -64,5 +64,19 @@ h1,h2{
      margin-top: 5%;
 
 }
+/*Who we are heading and paragraph text being styled*/
+.who-we-are h2{
+ text-align:center;
+
+}
+.who-we-are p{
+  text-align: center;
+}
+
+/* #who-text p{
+  text-align:center;
+  
+} */
+
 
 
