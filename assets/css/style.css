@@ -87,10 +87,65 @@ h1,h2{
   background-image: url('../images/pawprints-2919733_1280.jpg');
 }
 
-/* #who-text p{
-  text-align:center;
-  
-} */
+#walking{
+
+  width: 60%;
+  float: right;
+  line-height:20px;
+  clear:both;
+  margin-bottom:50px;
+
+}
+
+#talking{
+
+  width: 60%;
+  float: left;
+  line-height:20px;
+  clear:both;
+  margin-bottom:50px;
+
+}
+
+#social{
+  height:350px;
+  width:25%;
+  background-image: url('../images/dogs-6463032_640.jpg');
+  float: right;
+  margin-top: 5%;
+}
+
+
+#where{
+
+  width: 60%;
+  float: left;
+  line-height:20px;
+  clear:both;
+  margin-bottom:50px;
+
+}
+
+footer{
+  height: 150px;
+}
+
+.social-media{
+  text-align: center;
+}
+
+.social-media > li {
+  display: inline;/*side by side*/
+}
+
+.social-media i{
+  font-size: 160%;
+  margin-bottom:5%;
+  padding: 5%;
+  color: #3a3a3a;
+}
+/*logo at bottom of site*/
+
 
 
 
