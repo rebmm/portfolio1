@@ -88,13 +88,11 @@ h1,h2{
 }
 
 #walking{
-
-  width: 60%;
-  float: right;
-  line-height:20px;
-  clear:both;
-  margin-bottom:50px;
-
+  height:100px;
+  width: 25%;
+  background-image: url('../images/dog-1867604_640.jpg');
+  float: left;
+  margin-bottom: 5%;
 }
 
 #talking{
