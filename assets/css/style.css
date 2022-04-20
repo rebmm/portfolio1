@@ -88,11 +88,12 @@ h1,h2{
 }
 
 #walking{
-  height:100px;
-  width: 25%;
+  height:335px;
+  width:30%;
   background-image: url('../images/dog-1867604_640.jpg');
-  float: left;
-  margin-bottom: 5%;
+  float:left;
+  margin-top:10%;
+
 }
 
 #talking{
@@ -143,6 +144,16 @@ footer{
   color: #3a3a3a;
 }
 /*logo at bottom of site*/
+
+.book-session{
+  width: 300px;
+  background: color #e67144;
+  text-align:center;
+  box-shadow: 0 0 3px 0 #e67144;
+  border-radius: 5px; /*makes corners rounded*/
+  padding: 25px;
+  margin: 10% auto;
+}
 
 
 
