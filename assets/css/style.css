@@ -126,10 +126,10 @@ h1,h2{
 }
 
 footer{
-  height: 150px;
+  height: 100px;
 }
 
-.social-media{
+#footer-position{
   text-align: center;
 }
 
@@ -139,7 +139,7 @@ footer{
 
 .social-media i{
   font-size: 160%;
-  margin-bottom:5%;
+  margin: bottom 10px;%;
   padding: 5%;
   color: #3a3a3a;
 }
@@ -154,7 +154,70 @@ footer{
   padding: 25px;
   margin: 10% auto;
 }
+/*Style video*/
+#video{
+  text-align:center;
+  margin-top: 10%;
+}
+
+/*Style Form*/
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+
+input[type=submit] {
+  background-color: #e67144;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #e644e6;
+}
+
+/* Style the container/contact section */
+#form-box {
+  background-color: #d8dcdfe8;
+  margin-top: 3%;
+  float:right;
+  
+  
+}
+
+/* Create two columns that float next to eachother */
+.form-position {
+  float: left;
+  width: 50%;
+  margin-top: 4%;
+  padding: 20px;
+}
+#map-position {
+  float: right;
+  width: 50%;
+  margin-top: 7%;
+  padding: 20px;
+
+}
 
 
-
-
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
