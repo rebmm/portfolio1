@@ -58,7 +58,7 @@ h1,h2{
 
 
 #heroImage{
-    height:600px;
+    height: 800px;
     width:100%;
     background: url('../images/fetch-4957501_1920.jpg') no-repeat center center;
      margin-top: 5%;
@@ -127,21 +127,26 @@ h1,h2{
 
 footer{
   height: 100px;
+
 }
 
-#footer-position{
-  text-align: center;
+#footer-icons{
+text-align: center;
 }
+
 
 .social-media > li {
   display: inline;/*side by side*/
+  
 }
 
 .social-media i{
   font-size: 160%;
-  margin: bottom 10px;%;
+  margin: bottom 10px;
   padding: 5%;
   color: #3a3a3a;
+  position:fixed center;
+  
 }
 /*logo at bottom of site*/
 
@@ -221,3 +226,80 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #cabfba;
+  color: rgb(10, 8, 8);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(17, 10, 10);
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+  border: 2px;
+  outline: 0;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  background-color:#e67144;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+
+}
+
+.button:hover {
+  background-color: rgb(85, 85, 85);
+}
+
+p{
+  font-size: 20px;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
