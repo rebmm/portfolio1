@@ -9,7 +9,7 @@ The website consists of 3 pages:
 
 The overall website is styled using the style.css file which is stored int he assets folder
 
-The website is deployed HERE (URL)
+The website is deployed [HERE] (URL)
 
 ## Screenshots of Website 
 
