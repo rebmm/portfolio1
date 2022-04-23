@@ -14,9 +14,9 @@ The website is deployed HERE (URL)
 ## UserStories / Requirments 
 
 | US ID         | Description                                                                  | Delivered Y/N  |
-| ------------- | ------------                                                               - | ------      -- |
-| John          | Design a website that incorporates a main navigation menu and a              |                |
-| Bob           | Test2                                                                        | Toronto        |
+| ------------- | ---------------------------------------------------------------------------- | -------------- |
+| 'John'        | 'Design a website that incorporates a main navigation menu and a '           |                |
+| 'Bob'         | 'Test2'                                                                      | 'Toronto'      |
 |               |                                
 
 
