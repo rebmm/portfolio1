@@ -19,12 +19,14 @@ h1,h2{
     color: #E67144;
     letter-spacing: 8px;
     text-transform:uppercase;
+  
 }
 
 
 #logo{/*styles heading/title*/
     font-size: 300%;
     float:left;
+    margin-top: 3%;
     
 }
 
@@ -61,67 +63,13 @@ h1,h2{
     height: 800px;
     width:100%;
     background: url('../images/fetch-4957501_1920.jpg') no-repeat center center;
-     margin-top: 5%;
+    margin-top: 5%;
 
 }
 /*Who we are heading and paragraph text being styled*/
 .who-we-are h2{
  text-align:center;
 
-}
-.who-we-are p{
-  width:500px;
-  height:280px;
-  font-size: 20px ;
-  padding:30px;
-  border-style: double;
-  border-color: #EB8A81;
-  border-width:3px;
-  margin: 0 auto;/*centres the text*/
-  
-}
-
-#left-image{
-  height:150px;
-  width:100%;
-  background-image: url('../images/pawprints-2919733_1280.jpg');
-}
-
-#walking{
-  height:335px;
-  width:30%;
-  background-image: url('../images/dog-1867604_640.jpg');
-  float:left;
-  margin-top:10%;
-
-}
-
-#talking{
-
-  width: 60%;
-  float: left;
-  line-height:20px;
-  clear:both;
-  margin-bottom:50px;
-
-}
-
-#social{
-  height:350px;
-  width:25%;
-  background-image: url('../images/dogs-6463032_640.jpg');
-  float: right;
-  margin-top: 5%;
-}
-
-
-#where{
-
-  width: 60%;
-  float: left;
-  line-height:20px;
-  clear:both;
-  margin-bottom:50px;
 
 }
 
@@ -242,21 +190,23 @@ input[type=submit]:hover {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
+  margin: 40px;
+  border: 2px;
+  border-color: #3a3a3a;
 }
 
 .about-section {
-  padding: 50px;
+
+  font-size: 28px;
   text-align: center;
-  background-color: #cabfba;
-  color: rgb(10, 8, 8);
+  background-color: #fff;
+  color: #e67144;
+
+
 }
 
-.container {
-  padding: 0 16px;
-}
 
-.container::after, .row::after {
+.container:after, .row:after {
   content: "";
   clear: both;
   display: table;
@@ -266,10 +216,12 @@ input[type=submit]:hover {
   color: rgb(17, 10, 10);
   font-size: 28px;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 .button {
   border: 2px;
+  border-color: #3a3a3a;
   outline: 0;
   display: inline-block;
   padding: 10px;
@@ -277,7 +229,8 @@ input[type=submit]:hover {
   background-color:#e67144;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: 95%;
+  font-size: 22px;
 
 }
 
@@ -289,11 +242,14 @@ p{
   font-size: 20px;
   font-style: normal;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  text-align: center;
 }
 
 h3{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
+  text-align:center;
 }
 
 @media screen and (max-width: 650px) {
