@@ -1,115 +1,130 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:wght@300&family=Oswald:wght@300&display=swap');/*importing a font*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+/*importing a font*/
 
-*{ /*Applies to all, set to 0 to give more control over box model*/
-    margin:0;
-    padding:0;
-    border:none;
+* {
+  /*Applies to all, set to 0 to give more control over box model*/
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
-body{
-    font-family: 'Indie Flower', cursive;
-    font-weight: 200;
-    color: #E67144;
-   
+body {
+  font-family: 'Indie Flower', cursive;
+  font-weight: 200;
+  color: #E67144;
+
 }
 
-h1,h2{
-    font-family: 'Indie Flower', cursive;
-    font-weight:200;
-    color: #E67144;
-    letter-spacing: 8px;
-    text-transform:uppercase;
-  
-}
+h1,
+h2 {
+  font-family: 'Indie Flower', cursive;
+  font-weight: 200;
+  color: #E67144;
+  letter-spacing: 8px;
+  text-transform: uppercase;
 
-
-#logo{/*styles heading/title*/
-    font-size: 300%;
-    float:left;
-    margin-top: 3%;
-    
 }
 
 
+#logo {
+  /*styles heading/title*/
+  font-size: 300%;
+  float: left;
+  margin-top: 3%;
 
-.active{
-    border-bottom:2px solid #EB8A81
+}
+
+
+
+.active {
+  border-bottom: 2px solid #EB8A81
 }
 
 
-#menu{
-    font-size:150%;
-    letter-spacing:  4px;
-  }
-  #menu, #heading{
-    line-height: 80px;
-  
-  }
-  #menu li{
-    float: right;
-    list-style-type:none;
-    margin-right:50px;
-  }
-  #menu a{
-    text-decoration:none;
-    color:inherit; /*keeps the colour from the parent*/
-  }
-  #menu a:hover{
-      border-bottom: 2px solid #EB8A81;
-  }
+#menu {
+  font-size: 150%;
+  letter-spacing: 4px;
+}
 
-
-#heroImage{
-    height: 800px;
-    width:100%;
-    background: url('../images/fetch-4957501_1920.jpg') no-repeat center center;
-    margin-top: 5%;
+#menu,
+#heading {
+  line-height: 80px;
 
 }
+
+#menu li {
+  float: right;
+  list-style-type: none;
+  margin-right: 50px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: inherit;
+  /*keeps the colour from the parent*/
+}
+
+#menu a:hover {
+  border-bottom: 2px solid #EB8A81;
+}
+
+
+#heroImage {
+  height: 800px;
+  width: 100%;
+  background: url('../images/fetch-4957501_1920.jpg') no-repeat center center;
+  margin-top: 5%;
+
+}
+
 /*Who we are heading and paragraph text being styled*/
-.who-we-are h2{
- text-align:center;
+.who-we-are h2 {
+  text-align: center;
 
 
 }
 
-footer{
+footer {
   height: 100px;
 
 }
 
-#footer-icons{
-text-align: center;
+#footer-icons {
+  text-align: center;
 }
 
 
-.social-media > li {
-  display: inline;/*side by side*/
-  
+.social-media>li {
+  display: inline;
+  /*side by side*/
+
 }
 
-.social-media i{
+.social-media i {
   font-size: 160%;
   margin: bottom 10px;
   padding: 5%;
   color: #3a3a3a;
-  position:fixed center;
-  
+  position: fixed center;
+
 }
+
 /*logo at bottom of site*/
 
-.book-session{
+.book-session {
   width: 300px;
   background: color #e67144;
-  text-align:center;
+  text-align: center;
   box-shadow: 0 0 3px 0 #e67144;
-  border-radius: 5px; /*makes corners rounded*/
+  border-radius: 5px;
+  /*makes corners rounded*/
   padding: 25px;
   margin: 10% auto;
 }
+
 /*Style video*/
-#video{
-  text-align:center;
+#video {
+  text-align: center;
   margin-top: 10%;
 }
 
@@ -119,36 +134,39 @@ text-align: center;
 }
 
 /* Style inputs */
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  
+
 }
 
 input[type=submit] {
   background-color: #e67144;
   color: white;
   font-family: 'Indie Flower', cursive;
+  font-size:20px;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #e644e6;
+  background-color: #6a6767;
 }
 
 /* Style the container/contact section */
 #form-box {
   background-color: #d8dcdfe8;
   margin-top: 3%;
-  float:right;
-  
-  
+  float: right;
+
+
 }
 
 /* Create two columns that float next to eachother */
@@ -158,18 +176,24 @@ input[type=submit]:hover {
   margin-top: 4%;
   padding: 20px;
 }
+
 #map-position {
   float: right;
-  width: 50%;
   margin-top: 7%;
   padding: 20px;
+  border:2px;
+  box-shadow: 0 10px 10px 0 rgb(230, 113, 68);/*adds shadow around map*/
+  border-color: #E67144;
+
 
 }
 
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column, input[type=submit] {
+
+  .column,
+  input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
@@ -177,7 +201,9 @@ input[type=submit]:hover {
 
 
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -189,10 +215,10 @@ input[type=submit]:hover {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 10px 0 rgb(230, 113, 68);
   margin: 40px;
   border: 2px;
-  border-color: #3a3a3a;
+  margin-left: 85px;
 }
 
 .about-section {
@@ -206,7 +232,8 @@ input[type=submit]:hover {
 }
 
 
-.container:after, .row:after {
+.container:after,
+.row:after {
   content: "";
   clear: both;
   display: table;
@@ -226,7 +253,7 @@ input[type=submit]:hover {
   display: inline-block;
   padding: 10px;
   color: white;
-  background-color:#e67144;
+  background-color: #e67144;
   text-align: center;
   cursor: pointer;
   width: 95%;
@@ -238,7 +265,7 @@ input[type=submit]:hover {
   background-color: rgb(85, 85, 85);
 }
 
-p{
+p {
   font-size: 20px;
   font-style: normal;
   font-family: Arial, Helvetica, sans-serif;
@@ -246,10 +273,10 @@ p{
   text-align: center;
 }
 
-h3{
+h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
-  text-align:center;
+  text-align: center;
 }
 
 @media screen and (max-width: 650px) {
@@ -258,4 +285,3 @@ h3{
     display: block;
   }
 }
-
