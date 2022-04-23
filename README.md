@@ -1,4 +1,4 @@
-# Pawkies#
+# Pawkies
 
 The following implements a website called Pawkies, which provides a dog walking service.
 The application is developed using HTML5 and CSS and is running on a cloud platform ( Github pages).
@@ -11,7 +11,7 @@ The overall website is styled using the style.css file which is stored int he as
 
 The website is deployed HERE (URL)
 
-## Screenshots of Website ## 
+## Screenshots of Website 
 
 ### Website Homepage (https://8000-rebmm-portfolio1-duq7987z4iy.ws-eu42.gitpod.io/assets/index.html)
 
