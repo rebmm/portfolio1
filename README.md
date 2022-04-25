@@ -64,28 +64,6 @@ Goals of the website for the user
 
 
 
-| LO        | Description                                                                        | Delivered Y/N  |
-| LO1 | ---------------------------------------------------------------------------------------| -------------- |
-| 1.1     | 'Design a website that incorporates a main navigation menu and a structured layout '| 'Y'    |
-| 1.2     |                                                                           
-
-| 1.3     | 'Design a website that incorporates a main navigation menu and a '           |                |
-| 1.4     | 'Test2'                                                                      | 'Toronto'         |                         | 1.5         | 'Design a website that incorporates a main navigation menu and a '           |              |
-| 1.6     | 'Test2'                                                                      | 'Toronto'      |          |'John'         | 'Design a website that incorporates a main navigation menu and a '           |                |
-| 'Bob'         | 'Test2'                                                                      | 'Toronto'      |          | 'John'        | 'Design a website that incorporates a main navigation menu and a '           |                |
-| 'Bob'         | 'Test2'                                                                      | 'Toronto'      |         | 'John'        | 'Design a website that incorporates a main navigation menu and a '           |                |
-| 'Bob'         | 'Test2'                                                                      | 'Toronto'      |         | 'John'        | 'Design a website that incorporates a main navigation menu and a '           |                |
-| 'Bob'         | 'Test2'                                                                      | 'Toronto'      |         | 'John'        | 'Design a website that incorporates a main navigation menu and a '           |                |
-| 'Bob'         | 'Test2'                                                                      | 'Toronto'      |          | 'John'        | 'Design a website that incorporates a main navigation menu and a '           |                |
-| 'Bob'         | 'Test2'                                                                      | 'Toronto'      |         | 'John'        | 'Design a website that incorporates a main navigation menu and a '           |                |
-| 'Bob'         | 'Test2'                                                                      | 'Toronto'      |         | 'John'        | 'Design a website that incorporates a main navigation menu and a '           |                |
-| 'Bob'         | 'Test2'                                                                      | 'Toronto'      |         | 'John'        | 'Design a website that incorporates a main navigation menu and a '           |                |
-| 'Bob'         | 'Test2'                                                                      | 'Toronto'      |         | 'John'        | 'Design a website that incorporates a main navigation menu and a '           |                |
-| 'Bob'         | 'Test2'                                                                      | 'Toronto'      |         | 'John'        | 'Design a website that incorporates a main navigation menu and a '           |                |
-| 'Bob'         | 'Test2'                                                                      | 'Toronto'      |          | 'John'        | 'Design a website that incorporates a main navigation menu and a '           |                |
-| 'Bob'         | 'Test2'                                                                      | 'Toronto'      |         | 'John'        | 'Design a website that incorporates a main navigation menu and a '           |                |
-| 'Bob'         | 'Test2'                                                                      | 'Toronto'      |         | 'John'        | 'Design a website that incorporates a main navigation menu and a '           |                |
-| 'Bob'         | 'Test2'                                                                      |  |                                           
 
 
 ## Common Errors During Testing ##
