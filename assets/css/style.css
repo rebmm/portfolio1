@@ -1,22 +1,21 @@
+/*importing a font for main heading, and used throughout*/
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:wght@300&family=Oswald:wght@300&display=swap');
-/*importing a font*/
 
+/*Applies to all, set to 0 to give more control over box model*/
 * {
-  /*Applies to all, set to 0 to give more control over box model*/
   margin: 0;
   padding: 0;
   border: none;
 }
-
+/*Styling font for the body text*/
 body {
   font-family: 'Indie Flower', cursive;
   font-weight: 200;
   color: #E67144;
 
 }
-
-h1,
-h2 {
+/*Stylin for the h1 and h2 tags*/
+h1,h2 {
   font-family: 'Indie Flower', cursive;
   font-weight: 200;
   color: #E67144;
@@ -25,22 +24,20 @@ h2 {
 
 }
 
-
+/*styles heading/title specifically using the id*/
 #logo {
-  /*styles heading/title*/
+
   font-size: 300%;
   float: left;
   margin-top: 3%;
 
 }
-
-
-
+/*Styles the active class for underline other heading on nav bar*/
 .active {
   border-bottom: 2px solid #EB8A81
 }
 
-
+/*styles menu section of the pages*/
 #menu {
   font-size: 150%;
   letter-spacing: 4px;
@@ -60,15 +57,15 @@ h2 {
 
 #menu a {
   text-decoration: none;
-  color: inherit;
-  /*keeps the colour from the parent*/
+  color: inherit; /*keeps the same colour from the parent*/
+  
 }
-
+/*Hover effect */
 #menu a:hover {
   border-bottom: 2px solid #EB8A81;
 }
 
-
+/*Styling hero image*/
 #heroImage {
   height: 800px;
   width: 100%;
@@ -81,25 +78,23 @@ h2 {
 .who-we-are h2 {
   text-align: center;
 
-
 }
-
+/*Will apply style to all footer sections on each page*/
 footer {
   height: 100px;
 
 }
-
+/*Centers the icons*/
 #footer-icons {
   text-align: center;
 }
 
-
+/*Displays the social media items side by side*/
 .social-media>li {
   display: inline;
-  /*side by side*/
 
 }
-
+/*Specifically styles the icons in the footers*/
 .social-media i {
   font-size: 160%;
   margin: bottom 10px;
@@ -134,9 +129,7 @@ footer {
 }
 
 /* Style inputs */
-input[type=text],
-select,
-textarea {
+input[type=text],select,textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -145,17 +138,17 @@ textarea {
   resize: vertical;
 
 }
-
+/*Styles the submit input*/
 input[type=submit] {
   background-color: #e67144;
   color: white;
   font-family: 'Indie Flower', cursive;
-  font-size:20px;
+  font-size: 20px;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
 }
-
+/*Hover function on the submit button*/
 input[type=submit]:hover {
   background-color: #6a6767;
 }
@@ -176,18 +169,18 @@ input[type=submit]:hover {
   margin-top: 4%;
   padding: 20px;
 }
-
+/*Styling the google map*/
 #map-position {
   float: right;
   margin-top: 7%;
   padding: 20px;
-  border:2px;
-  box-shadow: 0 10px 10px 0 rgb(230, 113, 68);/*adds shadow around map*/
+  border: 2px;
+  box-shadow: 0 10px 10px 0 rgb(230, 113, 68);
+  /*adds shadow around map*/
   border-color: #E67144;
 
 
 }
-
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -206,21 +199,21 @@ input[type=submit]:hover {
 *:after {
   box-sizing: inherit;
 }
-
+/*Styling the colums for the team member profiles*/
 .column {
   float: left;
   width: 30%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
-
+/*Styles the profile card of each team member*/
 .card {
   box-shadow: 0 10px 10px 0 rgb(230, 113, 68);
   margin: 40px;
   border: 2px;
   margin-left: 85px;
 }
-
+/*About section*/
 .about-section {
 
   font-size: 28px;
@@ -231,21 +224,20 @@ input[type=submit]:hover {
 
 }
 
-
 .container:after,
 .row:after {
   content: "";
   clear: both;
   display: table;
 }
-
+/*Styles the profile text for each team member*/
 .title {
   color: rgb(17, 10, 10);
   font-size: 28px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
-
+/*Styling email button on about us page, team profiles*/
 .button {
   border: 2px;
   border-color: #3a3a3a;
@@ -260,11 +252,11 @@ input[type=submit]:hover {
   font-size: 22px;
 
 }
-
+/*Hover effect for these buttons*/
 .button:hover {
   background-color: rgb(85, 85, 85);
 }
-
+/*Styling for all paragraph tags*/
 p {
   font-size: 20px;
   font-style: normal;
@@ -272,13 +264,13 @@ p {
   padding: 10px;
   text-align: center;
 }
-
+/*Styling for all h3 tags*/
 h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   text-align: center;
 }
-
+/*responsive design*/
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
