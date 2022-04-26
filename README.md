@@ -67,6 +67,8 @@ Goals of the website for the user
 
 
 ## Common Errors During Testing ##
+The site is not fully responsive. This would be something that needs to be improved on the site.
+My anchor tag for the button failed validation as the a tag could not be a descendent of a button. So I opted to use the link and style it to appear like a button.
 
 
 

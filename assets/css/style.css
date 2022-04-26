@@ -7,6 +7,7 @@
   padding: 0;
   border: none;
 }
+
 /*Styling font for the body text*/
 body {
   font-family: 'Indie Flower', cursive;
@@ -14,8 +15,10 @@ body {
   color: #E67144;
 
 }
+
 /*Stylin for the h1 and h2 tags*/
-h1,h2 {
+h1,
+h2 {
   font-family: 'Indie Flower', cursive;
   font-weight: 200;
   color: #E67144;
@@ -32,6 +35,7 @@ h1,h2 {
   margin-top: 3%;
 
 }
+
 /*Styles the active class for underline other heading on nav bar*/
 .active {
   border-bottom: 2px solid #EB8A81
@@ -57,9 +61,11 @@ h1,h2 {
 
 #menu a {
   text-decoration: none;
-  color: inherit; /*keeps the same colour from the parent*/
-  
+  color: inherit;
+  /*keeps the same colour from the parent*/
+
 }
+
 /*Hover effect */
 #menu a:hover {
   border-bottom: 2px solid #EB8A81;
@@ -79,11 +85,13 @@ h1,h2 {
   text-align: center;
 
 }
+
 /*Will apply style to all footer sections on each page*/
 footer {
   height: 100px;
 
 }
+
 /*Centers the icons*/
 #footer-icons {
   text-align: center;
@@ -94,13 +102,14 @@ footer {
   display: inline;
 
 }
+
 /*Specifically styles the icons in the footers*/
 .social-media i {
   font-size: 160%;
-  margin: bottom 10px;
+  margin: 10px;
   padding: 5%;
   color: #3a3a3a;
-  position: fixed center;
+  
 
 }
 
@@ -108,7 +117,7 @@ footer {
 
 .book-session {
   width: 300px;
-  background: color #e67144;
+  background-color: #e67144;
   text-align: center;
   box-shadow: 0 0 3px 0 #e67144;
   border-radius: 5px;
@@ -129,7 +138,9 @@ footer {
 }
 
 /* Style inputs */
-input[type=text],select,textarea {
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -138,6 +149,7 @@ input[type=text],select,textarea {
   resize: vertical;
 
 }
+
 /*Styles the submit input*/
 input[type=submit] {
   background-color: #e67144;
@@ -148,6 +160,7 @@ input[type=submit] {
   border: none;
   cursor: pointer;
 }
+
 /*Hover function on the submit button*/
 input[type=submit]:hover {
   background-color: #6a6767;
@@ -169,6 +182,7 @@ input[type=submit]:hover {
   margin-top: 4%;
   padding: 20px;
 }
+
 /*Styling the google map*/
 #map-position {
   float: right;
@@ -199,6 +213,7 @@ input[type=submit]:hover {
 *:after {
   box-sizing: inherit;
 }
+
 /*Styling the colums for the team member profiles*/
 .column {
   float: left;
@@ -206,6 +221,7 @@ input[type=submit]:hover {
   margin-bottom: 16px;
   padding: 0 8px;
 }
+
 /*Styles the profile card of each team member*/
 .card {
   box-shadow: 0 10px 10px 0 rgb(230, 113, 68);
@@ -213,6 +229,7 @@ input[type=submit]:hover {
   border: 2px;
   margin-left: 85px;
 }
+
 /*About section*/
 .about-section {
 
@@ -230,6 +247,7 @@ input[type=submit]:hover {
   clear: both;
   display: table;
 }
+
 /*Styles the profile text for each team member*/
 .title {
   color: rgb(17, 10, 10);
@@ -237,6 +255,7 @@ input[type=submit]:hover {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
+
 /*Styling email button on about us page, team profiles*/
 .button {
   border: 2px;
@@ -249,13 +268,16 @@ input[type=submit]:hover {
   text-align: center;
   cursor: pointer;
   width: 95%;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 22px;
 
 }
+
 /*Hover effect for these buttons*/
 .button:hover {
   background-color: rgb(85, 85, 85);
 }
+
 /*Styling for all paragraph tags*/
 p {
   font-size: 20px;
@@ -264,16 +286,21 @@ p {
   padding: 10px;
   text-align: center;
 }
+
 /*Styling for all h3 tags*/
 h3 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   text-align: center;
 }
+
 /*responsive design*/
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
     display: block;
   }
+
+
+
 }
