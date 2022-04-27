@@ -293,6 +293,13 @@ h3 {
   font-size: 30px;
   text-align: center;
 }
+/*paw print image across bottom of preview page*/
+#paw-image{
+  background-image: url('../images/pawprints-2919733_1280.jpg');
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
 
 /*responsive design*/
 @media screen and (max-width: 650px) {
