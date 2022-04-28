@@ -19,6 +19,7 @@ The website is deployed [HERE] (URL)
 
 
 
+
 ## UserStories / Requirements 
 
 Goals of the website for the user
@@ -33,8 +34,8 @@ Goals of the website for the user
     
     Contact
     Each of our team profiles have contact details so the user can reach out directly with any queries. The social media links are on the footer of every page, so the user does not need to click back when they want to visit the social media profiles.
-    Use of the google image answers the users question of where without them having to ask.
-    The sign up page gives the user the opportunity to enter their information to avail of the service.
+    Use of the google map on the booking page answers the users question of where without them having to ask.
+    The booking page gives the user the opportunity to enter their information to avail of the service.
 
 
     Return Users
