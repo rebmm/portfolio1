@@ -13,9 +13,9 @@ The website is deployed [HERE](https://8000-rebmm-portfolio1-kn5r0vf2cgb.ws-eu43
 
 ## Screenshots of Website 
 
- [Website Homepage](https://8000-rebmm-portfolio1-duq7987z4iy.ws-eu42.gitpod.io/assets/index.html)
+ [Website Homepage] (https://8000-rebmm-portfolio1-duq7987z4iy.ws-eu42.gitpod.io/assets/index.html)
 
- [Homepage image](https://github.com/rebmm/Portfolio1/blob/main/assets/images/Homepage.PNG)
+ [Homepage image] (https://github.com/rebmm/Portfolio1/blob/main/assets/images/Homepage.PNG)
 
 
 
@@ -52,14 +52,16 @@ The website is deployed [HERE](https://8000-rebmm-portfolio1-kn5r0vf2cgb.ws-eu43
     Pixabay for the HeroImage
     Youtube for the promotion video
 
-    Testing
-    W3C Markup Validator for each webpage
-    [Who we are](https://validator.w3.org/nu/#textarea)
-    [Sneak Peak](https://validator.w3.org/nu/#textarea)
-    [Book a session](https://validator.w3.org/nu/#textarea)
+## Testing 
 
-    W3C CSS Validator
-    [Styling](https://jigsaw.w3.org/css-validator/validator)   
+W3C Markup Validator for each webpage
+    
+[Who we are](https://validator.w3.org/nu/#textarea)
+[Sneak Peak](https://validator.w3.org/nu/#textarea)
+[Book a session](https://validator.w3.org/nu/#textarea)
+
+W3C CSS Validator
+[Styling](https://jigsaw.w3.org/css-validator/validator)  
     
 
 ## Common Errors During Testing ##
