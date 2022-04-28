@@ -56,9 +56,9 @@ The website is deployed [HERE](https://8000-rebmm-portfolio1-kn5r0vf2cgb.ws-eu43
 
 W3C Markup Validator for each webpage
     
-[Who we are](https://validator.w3.org/nu/#textarea)
-[Sneak Peak](https://validator.w3.org/nu/#textarea)
-[Book a session](https://validator.w3.org/nu/#textarea)
+[Who we are](https://validator.w3.org/nu/#textarea) <br>
+[Sneak Peak](https://validator.w3.org/nu/#textarea) <br>
+[Book a session](https://validator.w3.org/nu/#textarea) <br>
 
 W3C CSS Validator
 [Styling](https://jigsaw.w3.org/css-validator/validator)  
@@ -73,12 +73,12 @@ My anchor tag for the button failed validation as the a tag could not be a desce
 
 The following is deployed on Github pages. This was done through the following steps:
 <ol>
-<li>1)Repository created and code developed</li>
-<li> 2)Navigate to the settings in Github </li>
-<li>3)Navigate to pages in Github</li>
-<li>4)Select main and root as folder in configuration</li>
-<li>5)Click save</li>
-<li>6) Notice is issued of pages having being published and URL is provided</li>
+<li>Repository created and code developed</li>
+<li> Navigate to the settings in Github </li>
+<li>Navigate to pages in Github</li>
+<li>Select main and root as folder in configuration</li>
+<li>Click save</li>
+<li>Notice is issued of pages having being published and URL is provided</li>
 </ol>
 
 
