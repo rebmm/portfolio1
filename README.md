@@ -9,7 +9,7 @@ The website consists of 3 pages:
 
 The overall website is styled using the style.css file which is stored in the assets folder
 
-The website is deployed [HERE] (URL)
+The website is deployed [HERE] (https://8000-rebmm-portfolio1-kn5r0vf2cgb.ws-eu43.gitpod.io/assets/index.html)
 
 ## Screenshots of Website 
 
