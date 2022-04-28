@@ -70,12 +70,15 @@ My anchor tag for the button failed validation as the a tag could not be a desce
 ## Deployment Process ##
 
 The following is deployed on Github pages. This was done through the following steps:
-1)Repository created and code developed
+<ol>
+<li>1)Repository created and code developed
 2)Navigate to the settings in Github
 3)Navigate to pages in Github
 4)Select main and root as folder in configuration
 5)Click save
 6) Notice is issued of pages having being published and URL is provided
+</li>
+</ol>
 
 
 
