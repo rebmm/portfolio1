@@ -20,9 +20,9 @@ The website is deployed [HERE] (https://8000-rebmm-portfolio1-kn5r0vf2cgb.ws-eu4
 
 
 
-## UserStories / Requirements 
+### UserStories / Requirements 
 
-Goals of the website for the user
+### Goals of the website for the user
     Navigation
     The website has a simple yet structure design so the user does not get lost.
     The navigation bar clearly sets out the direction of the site. The heading of the webpage the user is on will be underlined so the user can keep track of where they are.
@@ -31,7 +31,7 @@ Goals of the website for the user
     From the onset the page illustrates the purpose of the website. The hero image reflects the nature of the business.
     The about section is short and concise to avoid the user having to read long periods of text. Showing the profile of the team and what they do acquaints the user with who we are as a company.
     The promotion video is used to demonstrate the kind of work we do, and gives the user an insight to what it would be like for their pet.
-    jjj
+
     Contact
     Each of our team profiles have contact details so the user can reach out directly with any queries. The social media links are on the footer of every page, so the user does not need to click back when they want to visit the social media profiles.
     Use of the google map on the booking page answers the users question of where without them having to ask.
@@ -42,41 +42,40 @@ Goals of the website for the user
     A return user can use the page to book in a session and see if there are any updated events.
     The goal would be that the page would update their audience with any new schedules, changes, features and general info about the company.
 
-    DESIGN
-
+    Design
     There is a consistent design throughout each webpage. In terms of colour, text, layout, the theme remains the same providing consistency and emphasising the brand of the company.
     There is a slight change of font and colour for the teams profiles. This was to add emphasis to them.
 
     Credits
-
+    Code Institute
     W3schools
     Pixabay for the HeroImage
     Youtube for the promotion video
 
     Testing
-    W3C Markup Validator
-    W3C CSS Validator   
-    LINK the results
+    W3C Markup Validator for each webpage
+    [Who we are] (https://validator.w3.org/nu/#textarea)
+    [Sneak Peak] (https://validator.w3.org/nu/#textarea)
+    [Book a session] (https://validator.w3.org/nu/#textarea)
+
+    W3C CSS Validator
+    [Styling] (https://jigsaw.w3.org/css-validator/validator)   
     
-
-
-
-    For a return user they
-
-
-
-
 
 ## Common Errors During Testing ##
 The site is not fully responsive. This would be something that needs to be improved on the site.
 My anchor tag for the button failed validation as the a tag could not be a descendent of a button. So I opted to use the link and style it to appear like a button.
 
 
-
-
-
-
 ## Deployment Process ##
+
+The following is deployed on Github pages. This was done through the following steps:
+1)Repository created and code developed
+2)Navigate to the settings in Github
+3)Navigate to pages in Github
+4)Select main and root as folder in configuration
+5)Click save
+6) Notice is issued of pages having being published and URL is provided
 
 
 
