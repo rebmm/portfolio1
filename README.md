@@ -31,7 +31,7 @@ Goals of the website for the user
     From the onset the page illustrates the purpose of the website. The hero image reflects the nature of the business.
     The about section is short and concise to avoid the user having to read long periods of text. Showing the profile of the team and what they do acquaints the user with who we are as a company.
     The promotion video is used to demonstrate the kind of work we do, and gives the user an insight to what it would be like for their pet.
-    
+    jjj
     Contact
     Each of our team profiles have contact details so the user can reach out directly with any queries. The social media links are on the footer of every page, so the user does not need to click back when they want to visit the social media profiles.
     Use of the google map on the booking page answers the users question of where without them having to ask.
