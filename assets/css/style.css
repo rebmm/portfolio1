@@ -16,7 +16,7 @@ body {
 
 }
 
-/*Stylin for the h1 and h2 tags*/
+/*Styling for the h1 and h2 tags*/
 h1,
 h2 {
   font-family: 'Indie Flower', cursive;
@@ -109,7 +109,7 @@ footer {
   margin: 10px;
   padding: 5%;
   color: #3a3a3a;
-  
+
 
 }
 
@@ -206,15 +206,14 @@ input[type=submit]:hover {
   }
 }
 
-
-
+/*maintains box sizing for the profile cards*/
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
 
-/*Styling the colums for the team member profiles*/
+/*Styling the columns for the team member profiles*/
 .column {
   float: left;
   width: 30%;
@@ -239,13 +238,6 @@ input[type=submit]:hover {
   color: #e67144;
 
 
-}
-
-.container:after,
-.row:after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 /*Styles the profile text for each team member*/
@@ -293,8 +285,9 @@ h3 {
   font-size: 30px;
   text-align: center;
 }
+
 /*paw print image across bottom of preview page*/
-#paw-image{
+#paw-image {
   background-image: url('../images/pawprints-2919733_1280.jpg');
   height: 200px;
   background-position: center;
