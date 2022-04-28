@@ -13,8 +13,6 @@ The website is deployed [HERE](https://8000-rebmm-portfolio1-kn5r0vf2cgb.ws-eu43
 
 ## Screenshots of Website 
 
- [Website Homepage] (https://8000-rebmm-portfolio1-duq7987z4iy.ws-eu42.gitpod.io/assets/index.html)
-
  [Homepage image] (https://github.com/rebmm/Portfolio1/blob/main/assets/images/Homepage.PNG)
 
 
