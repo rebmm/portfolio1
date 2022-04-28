@@ -13,7 +13,7 @@ The website is deployed [HERE](https://8000-rebmm-portfolio1-kn5r0vf2cgb.ws-eu43
 
 ## Screenshots of Website 
 
- [Homepage image] (https://github.com/rebmm/Portfolio1/blob/main/assets/images/Homepage.PNG?raw=true)
+ ![Homepage image] (https://github.com/rebmm/Portfolio1/blob/main/assets/images/Homepage.PNG?raw=true)
 
 
 
