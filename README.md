@@ -9,13 +9,13 @@ The website consists of 3 pages:
 
 The overall website is styled using the style.css file which is stored in the assets folder
 
-The website is deployed [HERE] (https://8000-rebmm-portfolio1-kn5r0vf2cgb.ws-eu43.gitpod.io/assets/index.html)
+The website is deployed [HERE](https://8000-rebmm-portfolio1-kn5r0vf2cgb.ws-eu43.gitpod.io/assets/index.html)
 
 ## Screenshots of Website 
 
- [Website Homepage] (https://8000-rebmm-portfolio1-duq7987z4iy.ws-eu42.gitpod.io/assets/index.html)
+ [Website Homepage](https://8000-rebmm-portfolio1-duq7987z4iy.ws-eu42.gitpod.io/assets/index.html)
 
-![Homepage image](https://github.com/rebmm/Portfolio1/blob/main/assets/images/Homepage.PNG)
+ [Homepage image](https://github.com/rebmm/Portfolio1/blob/main/assets/images/Homepage.PNG)
 
 
 
@@ -54,12 +54,12 @@ The website is deployed [HERE] (https://8000-rebmm-portfolio1-kn5r0vf2cgb.ws-eu4
 
     Testing
     W3C Markup Validator for each webpage
-    [Who we are] (https://validator.w3.org/nu/#textarea)
-    [Sneak Peak] (https://validator.w3.org/nu/#textarea)
-    [Book a session] (https://validator.w3.org/nu/#textarea)
+    [Who we are](https://validator.w3.org/nu/#textarea)
+    [Sneak Peak](https://validator.w3.org/nu/#textarea)
+    [Book a session](https://validator.w3.org/nu/#textarea)
 
     W3C CSS Validator
-    [Styling] (https://jigsaw.w3.org/css-validator/validator)   
+    [Styling](https://jigsaw.w3.org/css-validator/validator)   
     
 
 ## Common Errors During Testing ##
@@ -71,13 +71,12 @@ My anchor tag for the button failed validation as the a tag could not be a desce
 
 The following is deployed on Github pages. This was done through the following steps:
 <ol>
-<li>1)Repository created and code developed
-2)Navigate to the settings in Github
-3)Navigate to pages in Github
-4)Select main and root as folder in configuration
-5)Click save
-6) Notice is issued of pages having being published and URL is provided
-</li>
+<li>1)Repository created and code developed</li>
+<li> 2)Navigate to the settings in Github </li>
+<li>3)Navigate to pages in Github</li>
+<li>4)Select main and root as folder in configuration</li>
+<li>5)Click save</li>
+<li>6) Notice is issued of pages having being published and URL is provided</li>
 </ol>
 
 
